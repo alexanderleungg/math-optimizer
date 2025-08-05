@@ -1,0 +1,74 @@
+# Math Optimizer 🧮⚡  
+Math Optimizer is a Python CLI tool that parses and transforms arithmetic expressions in `.py` files into more efficient code. It uses an AST-based pipeline and symbolic algebra to optimize numerical scripts with one simple command.
+
+## ✨ Features  
+- 🔍 Parses Python source code using AST  
+- 🧠 Symbolic math simplifications (via SymPy)  
+- 📦 Constant folding  
+- 🧹 Dead code elimination  
+- 🔄 Polynomial factoring and expansion  
+- 🔧 Optional symbolic differentiation and integration  
+- 🚀 CLI-based optimization with one command
+
+## 📁 Project Structure  
+```
+math-optimizer/  
+├── main.py           # CLI entry point  
+├── optimizer.py      # Core optimization logic  
+├── parser.py         # AST parser and transformer  
+├── examples/         # Example input files  
+├── tests/            # Unit tests  
+└── __pycache__/      # Compiled Python cache  
+```
+
+## 🚀 Usage  
+1. **Install requirements**  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
+
+2. **Run optimizer**  
+   ```bash  
+   python main.py path/to/your_script.py  
+   ```  
+
+3. **Example**  
+   ```bash  
+   python main.py examples/example1.py  
+   ```  
+   Output: Optimized code printed to terminal or saved to file.
+
+## 🛠 How It Works  
+The tool performs the following transformations:  
+- Parses the source code into an AST.  
+- Identifies arithmetic expressions.  
+- Applies symbolic simplifications using SymPy.  
+- Rewrites optimized code back to Python.
+
+## 🧪 Testing  
+Run all tests using:  
+```bash  
+python -m unittest discover tests  
+```
+
+## 📌 Requirements  
+- Python 3.8+  
+- `sympy`  
+
+Install dependencies:  
+```bash  
+pip install sympy  
+```
+
+## 🙌 Contributing  
+Contributions are welcome! Feel free to:  
+- Submit issues or bug reports  
+- Suggest feature improvements  
+- Open PRs with tests and documentation
+
+## 📄 License  
+MIT License. See `LICENSE` file for details.  
+
+---  
+
+**Created by Alexander Leung & Contributors**
