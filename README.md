@@ -60,15 +60,6 @@ Install dependencies:
 pip install sympy  
 ```
 
-## 🙌 Contributing  
-Contributions are welcome! Feel free to:  
-- Submit issues or bug reports  
-- Suggest feature improvements  
-- Open PRs with tests and documentation
-
-## 📄 License  
-MIT License. See `LICENSE` file for details.  
-
 ---  
 
-**Created by Alexander Leung & Contributors**
+**Created with care by Alexander Leung**
